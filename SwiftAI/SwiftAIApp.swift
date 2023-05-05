@@ -6,11 +6,17 @@
 //
 
 import SwiftUI
+import OpenAIKit
+
+enum Keys {
+    static let apiKey = ProcessInfo.processInfo.environment["OPENAI_API_KEY"]!
+    static let organization = ProcessInfo.processInfo.environment["OPENAI_ORGANIZATION"]!
+}
 
 @main
 struct SwiftAIApp: App {
     let persistenceController = PersistenceController.shared
-
+    let apple: String = "apple"
     var body: some Scene {
         WindowGroup {
             ContentView()

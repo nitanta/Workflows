@@ -16,6 +16,7 @@
 		50BC28932A026C960083D653 /* SwiftAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BC28922A026C960083D653 /* SwiftAITests.swift */; };
 		50BC289D2A026C960083D653 /* SwiftAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BC289C2A026C960083D653 /* SwiftAIUITests.swift */; };
 		50BC289F2A026C960083D653 /* SwiftAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BC289E2A026C960083D653 /* SwiftAIUITestsLaunchTests.swift */; };
+		50BC28AD2A026D2D0083D653 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 50BC28AC2A026D2D0083D653 /* OpenAIKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BC28AD2A026D2D0083D653 /* OpenAIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,12 +145,16 @@
 				50BC28752A026C930083D653 /* Sources */,
 				50BC28762A026C930083D653 /* Frameworks */,
 				50BC28772A026C930083D653 /* Resources */,
+				5078F6252A04C7C5005A9163 /* SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SwiftAI;
+			packageProductDependencies = (
+				50BC28AC2A026D2D0083D653 /* OpenAIKit */,
+			);
 			productName = SwiftAI;
 			productReference = 50BC28792A026C930083D653 /* SwiftAI.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +227,9 @@
 				Base,
 			);
 			mainGroup = 50BC28702A026C930083D653;
+			packageReferences = (
+				50BC28AB2A026D2D0083D653 /* XCRemoteSwiftPackageReference "openai-kit" */,
+			);
 			productRefGroup = 50BC287A2A026C930083D653 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +266,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5078F6252A04C7C5005A9163 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		50BC28752A026C930083D653 /* Sources */ = {
@@ -591,6 +621,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		50BC28AB2A026D2D0083D653 /* XCRemoteSwiftPackageReference "openai-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dylanshine/openai-kit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		50BC28AC2A026D2D0083D653 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50BC28AB2A026D2D0083D653 /* XCRemoteSwiftPackageReference "openai-kit" */;
+			productName = OpenAIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		50BC28872A026C960083D653 /* SwiftAI.xcdatamodeld */ = {
