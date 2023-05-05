@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50B15BFC2A04CBE500E7F99A /* PR_Template.md in Sources */ = {isa = PBXBuildFile; fileRef = 50B15BFB2A04CBE500E7F99A /* PR_Template.md */; };
+		50B15BFE2A04CC1E00E7F99A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 50B15BFD2A04CC1E00E7F99A /* README.md */; };
 		50BC287D2A026C930083D653 /* SwiftAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BC287C2A026C930083D653 /* SwiftAIApp.swift */; };
 		50BC287F2A026C930083D653 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BC287E2A026C930083D653 /* ContentView.swift */; };
 		50BC28812A026C960083D653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50BC28802A026C960083D653 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50B15BFB2A04CBE500E7F99A /* PR_Template.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PR_Template.md; sourceTree = "<group>"; };
+		50B15BFD2A04CC1E00E7F99A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		50BC28792A026C930083D653 /* SwiftAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BC287C2A026C930083D653 /* SwiftAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAIApp.swift; sourceTree = "<group>"; };
 		50BC287E2A026C930083D653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,9 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50B15BFA2A04CBD300E7F99A /* Readme */ = {
+			isa = PBXGroup;
+			children = (
+				50B15BFB2A04CBE500E7F99A /* PR_Template.md */,
+			);
+			path = Readme;
+			sourceTree = "<group>";
+		};
 		50BC28702A026C930083D653 = {
 			isa = PBXGroup;
 			children = (
+				50B15BFD2A04CC1E00E7F99A /* README.md */,
+				50B15BFA2A04CBD300E7F99A /* Readme */,
 				50BC287B2A026C930083D653 /* SwiftAI */,
 				50BC28912A026C960083D653 /* SwiftAITests */,
 				50BC289B2A026C960083D653 /* SwiftAIUITests */,
@@ -296,7 +310,9 @@
 				50BC28862A026C960083D653 /* Persistence.swift in Sources */,
 				50BC287F2A026C930083D653 /* ContentView.swift in Sources */,
 				50BC287D2A026C930083D653 /* SwiftAIApp.swift in Sources */,
+				50B15BFC2A04CBE500E7F99A /* PR_Template.md in Sources */,
 				50BC28892A026C960083D653 /* SwiftAI.xcdatamodeld in Sources */,
+				50B15BFE2A04CC1E00E7F99A /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

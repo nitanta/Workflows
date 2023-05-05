@@ -1,0 +1,33 @@
+## Build generated
+build/
+DerivedData/
+
+# Swift Package Manager
+Packages/
+.build/
+
+# CocoaPods
+Pods/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+## Other
+*.moved-aside
+*.xcuserstate
+*.xcworkspace
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+*.xcodeproj/xcshareddata/xcschemes/
+xcuserdata/
+
+.DS_Store
+
