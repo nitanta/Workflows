@@ -24,4 +24,3 @@ struct SwiftAIApp: App {
         }
     }
 }
-
