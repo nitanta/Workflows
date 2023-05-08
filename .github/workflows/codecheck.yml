@@ -4,8 +4,6 @@
 name: Swift
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
@@ -16,6 +14,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    action "Danger" {
+        uses = "danger/danger"
+        secrets = ["GITHUB_TOKEN"]
+    }
     - name: Build
       run: swift build -v
     - name: Run tests
