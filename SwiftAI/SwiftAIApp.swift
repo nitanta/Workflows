@@ -16,7 +16,7 @@ enum Keys {
 @main
 struct SwiftAIApp: App {
     let persistenceController = PersistenceController.shared
-    let apple: String = "apple"
+    let apple : String = "apple"
     var body: some Scene {
         WindowGroup {
             ContentView()
@@ -24,3 +24,6 @@ struct SwiftAIApp: App {
         }
     }
 }
+
+
+
