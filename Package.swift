@@ -1,15 +1,23 @@
-// swift-tools-version:4.2
-import PackageDescription
+// swift-tools-version:5.5
+ import PackageDescription
 
-let package = Package(
-    name: "Eigen",
-    dependencies: [
-      .package(url: "https://github.com/danger/swift.git", from: "1.0.0")
-    ],
-    targets: [
-        // This is just an arbitrary Swift file in our app, that has
-        // no dependencies outside of Foundation, the dependencies section
-        // ensures that the library for Danger gets build also.
-        .target(name: "eigen", dependencies: ["Danger"], path: "Artsy", sources: ["Stringify.swift"]),
-    ]
-)
+ let package = Package(
+     name: "SwiftAI-PRLinter",
+     defaultLocalization: "en",
+     products: [
+       .library(name: "DangerDeps", type: .dynamic, targets: ["SwiftAI-PRLinter"])
+     ],
+     dependencies: [
+         .package(url: "https://github.com/danger/swift.git", from: "3.12.3")
+     ],
+     targets: [
+         .target(
+             name: "SwiftAI-PRLinter",
+             dependencies: [
+                 .product(name: "Danger", package: "swift")
+             ],
+             path: "SwiftAI",
+             sources: ["DangerProxy.swift"]
+         )
+     ]
+ )
