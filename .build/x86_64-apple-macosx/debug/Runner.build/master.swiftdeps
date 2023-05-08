@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "60e49d0c83809510edfbbae90609ae96803141c42d3181e1b1c88e3c6b9df90a"
+build_start_time: [1683537616, 393990039]
+build_end_time: [1683537616, 913632869]
+inputs:
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Runner/Commands/Edit.swift": [1683537504, 483891725]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Runner/Commands/RunDangerJS.swift": [1683537504, 484088182]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Runner/Commands/Runner.swift": [1683537504, 484344482]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Runner/MarathonScriptManager.swift": [1683537504, 484560489]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Runner/main.swift": [1683537504, 484824895]

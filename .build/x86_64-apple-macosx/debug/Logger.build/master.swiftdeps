@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "a6b41a8928028c9e10062bf6578ffeb8ca4fd5b4aeabd3a9aca3ae23b25970fc"
+build_start_time: [1683538578, 218240976]
+build_end_time: [1683538578, 290452003]
+inputs:
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/Logger/Sources/Logger/Logger.swift": [1683537505, 198896169]

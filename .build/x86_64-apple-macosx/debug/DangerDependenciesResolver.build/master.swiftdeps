@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "0d2b153d398c10cb0535b854e0906fbe48fbdd2e88e7cd7814654dbe2861b858"
+build_start_time: [1683537614, 674178123]
+build_end_time: [1683537616, 291918992]
+inputs:
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerDependenciesResolver/Data+Encoding.swift"
+  : [1683537504, 475961446]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerDependenciesResolver/FileCreator.swift": [1683537504, 476099491]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerDependenciesResolver/FileReader.swift": [1683537504, 476227760]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerDependenciesResolver/InlineDependenciesFinder.swift"
+  : [1683537504, 476420879]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerDependenciesResolver/Package.swift": [1683537504, 476577997]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerDependenciesResolver/PackageDataProvider.swift"
+  : [1683537504, 476737499]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerDependenciesResolver/PackageGenerator.swift"
+  : [1683537504, 476879835]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerDependenciesResolver/PackageListMaker.swift"
+  : [1683537504, 477008342]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerDependenciesResolver/PackageManager.swift"
+  : [1683537504, 477179527]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerDependenciesResolver/Script.swift": [1683537504, 477368593]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerDependenciesResolver/URL+RemoteRepository.swift"
+  : [1683537504, 477506637]

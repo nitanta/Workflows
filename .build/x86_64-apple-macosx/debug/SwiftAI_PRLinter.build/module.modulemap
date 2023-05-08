@@ -1,0 +1,4 @@
+module SwiftAI_PRLinter {
+    header "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/SwiftAI_PRLinter.build/SwiftAI-PRLinter-Swift.h"
+    requires objc
+}

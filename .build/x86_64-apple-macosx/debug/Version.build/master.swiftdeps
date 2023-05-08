@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "a0fe7d37f272e109c486d563fbe923f5220fe71365051ec2b64a47ce5a29d6fa"
+build_start_time: [1683537614, 16525983]
+build_end_time: [1683537614, 571378946]
+inputs:
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/Version/Sources/Version+Codable.swift": [1683537503, 581441879]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/Version/Sources/Version+Comparable.swift": [1683537503, 581636905]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/Version/Sources/Version+Foundation.swift": [1683537503, 581772804]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/Version/Sources/Version+Range.swift": [1683537503, 581924676]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/Version/Sources/Version.swift": [1683537503, 582140207]

@@ -1,0 +1,30 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "1edfadec9eaacb93e5f6f8303d06cef05b720f6b21fca300cf6405305c2294a9"
+build_start_time: [1683538578, 582325935]
+build_end_time: [1683538578, 675415992]
+inputs:
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/BitBucketCloud.swift": [1683537504, 471079349]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/BitBucketMetadata.swift": [1683537504, 471257209]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/BitBucketServerDSL.swift": [1683537504, 471437931]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/Danger.swift": [1683537504, 471642494]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/DangerDSL.swift": [1683537504, 472047328]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/DangerResults.swift": [1683537504, 472312927]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/DangerUtils.swift": [1683537504, 472553730]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/Extensions/DateFormatterExtensions.swift"
+  : [1683537504, 472874641]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/Extensions/NSRegularExpressionExtensions.swift"
+  : [1683537504, 473163127]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/File.swift": [1683537504, 473303794]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/GitDSL.swift": [1683537504, 473448753]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/GitDiff.swift": [1683537504, 473602056]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/GitHubDSL.swift": [1683537504, 473807811]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/GitLabDSL.swift": [1683537504, 473970413]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/CurrentPathProvider.swift"
+  : [1683537504, 474548816]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftLint.swift": [1683537504, 474760532]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftLintViolation.swift"
+  : [1683537504, 475033760]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftlintReportDeleter.swift"
+  : [1683537504, 475244998]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/Report.swift": [1683537504, 475492477]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/Danger/Settings.swift": [1683537504, 475734233]

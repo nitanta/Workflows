@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "4bea4838b4fcf1c1b397ce7e4ccd7f5dbd8e7863895310dcfd5e9e422743185c"
+build_start_time: [1683538578, 218247890]
+build_end_time: [1683538578, 290500164]
+inputs:
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/DangerShellExecutor/ShellExecutor.swift": [1683537504, 483466625]

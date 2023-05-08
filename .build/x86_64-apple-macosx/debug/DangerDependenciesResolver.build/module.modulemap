@@ -1,0 +1,4 @@
+module DangerDependenciesResolver {
+    header "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/DangerDependenciesResolver.build/DangerDependenciesResolver-Swift.h"
+    requires objc
+}

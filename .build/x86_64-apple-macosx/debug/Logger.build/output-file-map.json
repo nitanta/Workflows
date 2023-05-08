@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/Logger.build/master.swiftdeps"
+  },
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/Logger/Sources/Logger/Logger.swift": {
+    "dependencies": "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/Logger.build/Logger.d",
+    "object": "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/Logger.build/Logger.swift.o",
+    "swiftmodule": "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/Logger.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/Logger.build/Logger.swiftdeps"
+  }
+}

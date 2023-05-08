@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/SwiftAI_PRLinter.build/master.swiftdeps"
+  },
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/SwiftAI/DangerProxy.swift": {
+    "dependencies": "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/SwiftAI_PRLinter.build/DangerProxy.d",
+    "object": "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/SwiftAI_PRLinter.build/DangerProxy.swift.o",
+    "swiftmodule": "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/SwiftAI_PRLinter.build/DangerProxy~partial.swiftmodule",
+    "swift-dependencies": "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/x86_64-apple-macosx/debug/SwiftAI_PRLinter.build/DangerProxy.swiftdeps"
+  }
+}

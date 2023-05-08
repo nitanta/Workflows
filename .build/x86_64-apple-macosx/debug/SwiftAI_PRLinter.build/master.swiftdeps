@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "9eb9529a20eed67351bb69f526729ee042c67587fda34aed3f4d869fb2ac4436"
+build_start_time: [1683538578, 777453899]
+build_end_time: [1683538578, 815712928]
+inputs:
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/SwiftAI/DangerProxy.swift": [1650537102, 0]

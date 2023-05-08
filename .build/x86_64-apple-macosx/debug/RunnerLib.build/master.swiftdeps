@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "e7379a6bcd23c84d3939afacf813d2ccb1923753e85e82b38d103a7082323192"
+build_start_time: [1683537614, 674653053]
+build_end_time: [1683537616, 162914037]
+inputs:
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/CliArgs/CliArgs.swift": [1683537504, 485158920]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/CliArgs/CliArgsParser.swift": [1683537504, 485325813]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/CreateConfig.swift": [1683537504, 485562086]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/DangerCommand.swift": [1683537504, 485719680]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/DangerJSVersionFinder.swift": [1683537504, 485857486]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/DangerSwiftOption.swift": [1683537504, 485982179]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/DangerfileArgumentsPath.swift": [1683537504, 486101627]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/Files Import/DangerFileGenerator.swift"
+  : [1683537504, 486288309]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/Files Import/ImportsFinder.swift": [1683537504, 486417531]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/GetDangerJSPath.swift": [1683537504, 486612319]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/HelpMessagePresenter.swift": [1683537504, 486853599]
+  ? "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/NSRegularExpression+FilesImport.swift"
+  : [1683537504, 487015008]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/Runtime.swift": [1683537504, 487164974]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/SPMDanger.swift": [1683537504, 487310886]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/String+Path.swift": [1683537504, 487516880]
+  "/Users/nitantaadhikari/Desktop/Test projects/SwiftAI/.build/checkouts/swift/Sources/RunnerLib/VersionChecker.swift": [1683537504, 487699985]
